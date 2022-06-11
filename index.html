@@ -20,14 +20,20 @@
         <a class="header-company-name1" href="/">Web<span class="header-company-name2">Studio</span></a>
         <nav class="navigation">
             <ul class="navigate-list">
-                <li class="navigate-item"><a class="page-buttons" href="./index.html">Студия</a></li>
-                <li class="navigate-item"><a class="page-buttons" href="./portfolio.html">Портфолио</a></li>
-                <li class="navigate-item"><a class="page-buttons" href="">Контакты</a></li>
+                <li class="navigate-item">
+                    <a class="studio page-buttons page-buttons-studio button" href="./index.html">Студия</a>
+                </li>
+                <li class="navigate-item">
+                    <a class="page-buttons page-buttons-portfolio button" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="navigate-item">
+                    <a class="page-buttons page-buttons-contacts button" href="">Контакты</a>
+                </li>
             </ul>
         </nav>
             <ul class="header-contact-list">
                 <li class="header-contact-item">
-                    <a class="header-contacts header-gmail" href="mailto:info@devstudio.com">
+                    <a class="header-contacts header-gmail button" href="mailto:info@devstudio.com">
                         <svg class="header-contact-logo header-contacts" width="16" height="12">
                             <use 
                                 href="./images/symbol-defs.svg#icon-envelope">
@@ -36,7 +42,7 @@
                     </a>
                 </li>
                 <li class="header-contact-item">                   
-                    <a class="header-contacts header-tel" href="tel:+380961111111">
+                    <a class="header-contacts header-tel button" href="tel:+380961111111">
                         <svg class="header-contact-logo header-contacts" width="10" height="16">
                             <use
                                 href="./images/symbol-defs.svg#icon-smartphone">
@@ -52,7 +58,7 @@
             <div class="container header-background">
             <!--Head--> 
             <h1 class="main-title">Эффективные решения <br /> для вашего бизнеса</h1>
-            <button class="button-title" type="button">Заказать услуги</button>
+            <button class="button-title" type="button" data-modal-open>Заказать услуги</button>
         </section>
         <section class="section">
             <div class="container">
@@ -110,9 +116,24 @@
             <div class="container">
                 <h2 class="work-title">Чем мы занимаемся</h2>
                 <ul class="work-images">
-                    <li><img src="images/box1.jpg" alt="Рабочее c клавиатурой" class="work-item" width="370" height="294"></li>
-                    <li><img src="images/box2.jpg" alt="Рабочее лептопом" class="work-item" width="370" height="294"></li>
-                    <li><img src="images/box3.jpg" alt="Рабочее с планшетом" class="work-item" width="370" height="294"></li>
+                    <li class="work-item">
+                        <div class="work-container">
+                            <img src="images/box1.jpg" alt="Рабочее c клавиатурой" width="370" height="294">
+                            <p class="work-text">Декстопные приложения</p>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="work-container" >
+                            <img src="images/box2.jpg" alt="Рабочее лептопом" width="370" height="294">
+                            <p class="work-text">Мобильные приложения</p>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="work-container">
+                            <img src="images/box3.jpg" alt="Рабочее с планшетом" width="370" height="294">
+                            <p class="work-text">Дизайнерские решения</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -130,7 +151,7 @@
                     </div>
                     <ul class="person-soc-list">
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-instagram">
@@ -139,7 +160,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-twitter">
@@ -148,7 +169,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-facebook">
@@ -157,7 +178,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-linkedin">
@@ -176,7 +197,7 @@
                     </div>
                     <ul class="person-soc-list">
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-instagram">
@@ -184,7 +205,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="person-soc-item">
+                        <li class="person-soc-item button">
                             <a class="person-soc-link" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
@@ -193,7 +214,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="person-soc-item">
+                        <li class="person-soc-item button">
                             <a class="person-soc-link" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
@@ -202,7 +223,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="person-soc-item">
+                        <li class="person-soc-item button">
                             <a class="person-soc-link" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
@@ -222,7 +243,7 @@
                     </div>
                     <ul class="person-soc-list">
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-instagram">
@@ -231,7 +252,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-twitter">
@@ -240,7 +261,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-facebook">
@@ -249,7 +270,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-linkedin">
@@ -268,7 +289,7 @@
                     </div>
                     <ul class="person-soc-list">
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-instagram">
@@ -277,7 +298,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-twitter">
@@ -286,7 +307,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-facebook">
@@ -295,7 +316,7 @@
                             </a>
                         </li>
                         <li class="person-soc-item">
-                            <a class="person-soc-link" href="">
+                            <a class="person-soc-link button" href="">
                                 <svg class="person-soc-icon" width="20" height="20">
                                     <use 
                                         href="./images/symbol-defs.svg#icon-linkedin">
@@ -314,7 +335,7 @@
                 <h2 class="title-clients">Постоянные клиенты</h2>
                 <ul class="clients-brand-list">
                     <li class="clients-brand-item">
-                        <a class="clients-brand-link" href="">
+                        <a class="clients-brand-link button" href="">
                             <svg class="clients-brand-logo" width="106" height="60">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-union-1">
@@ -323,7 +344,7 @@
                         </a>
                     </li>
                     <li class="clients-brand-item">
-                        <a class="clients-brand-link" href="">
+                        <a class="clients-brand-link button" href="">
                             <svg class="clients-brand-logo" width="106" height="60">
                                 <use
                                     href="./images/symbol-defs.svg#icon-union-2">
@@ -332,7 +353,7 @@
                         </a>
                     </li>
                     <li class="clients-brand-item">
-                        <a class="clients-brand-link" href="">
+                        <a class="clients-brand-link button" href="">
                             <svg class="clients-brand-logo" width="106" height="60">
                                 <use
                                     href="./images/symbol-defs.svg#icon-union-3">
@@ -341,7 +362,7 @@
                         </a>
                     </li>
                     <li class="clients-brand-item">
-                        <a class="clients-brand-link" href="">
+                        <a class="clients-brand-link button" href="">
                             <svg class="clients-brand-logo" width="106" height="60">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-union-6">
@@ -350,7 +371,7 @@
                         </a>
                     </li>
                     <li class="clients-brand-item">
-                        <a class="clients-brand-link"  href="">
+                        <a class="clients-brand-link button"  href="">
                             <svg class="clients-brand-logo" width="106" height="60">
                                 <use
                                     href="./images/symbol-defs.svg#icon-union-5">
@@ -359,7 +380,7 @@
                         </a>
                     </li>
                     <li class="clients-brand-item">
-                        <a class="clients-brand-link" href="">
+                        <a class="clients-brand-link button" href="">
                             <svg class="clients-brand-logo" width="106" height="60">
                                 <use
                                     href="./images/symbol-defs.svg#icon-union-4">
@@ -390,7 +411,7 @@
                 <h3 class="footer-title">Присоединяйтесь</h3>
                 <ul class="footer-soc-list">
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-instagram">
@@ -399,7 +420,7 @@
                         </a>
                     </li>
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-twitter">
@@ -408,7 +429,7 @@
                         </a>
                     </li>
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-facebook">
@@ -417,7 +438,7 @@
                         </a>
                     </li>
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-linkedin">
@@ -429,6 +450,16 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close" type="button" data-modal-close>
+                <svg width="11" height="11">
+                    <use href="./images/symbol-defs.svg#icon-Close-modal"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
 

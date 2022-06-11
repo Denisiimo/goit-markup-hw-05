@@ -19,14 +19,20 @@
         <a class="header-company-name1" href="/">Web<span class="header-company-name2">Studio</span></a>
         <nav class="navigation">
             <ul class="navigate-list">
-                <li class="navigate-item"><a class="page-buttons" href="./index.html">Студия</a></li>
-                <li class="navigate-item"><a class="page-buttons" href="./portfolio.html">Портфолио</a></li>
-                <li class="navigate-item"><a class="page-buttons" href="">Контакты</a></li>
+                <li class="navigate-item">
+                    <a class="page-buttons page-buttons-studio button" href="./index.html">Студия</a>
+                </li>
+                <li class="navigate-item">
+                    <a class="portfolio page-buttons page-buttons-portfolio button" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="navigate-item">
+                    <a class="page-buttons page-buttons-contacts button" href="">Контакты</a>
+                </li>
             </ul>
         </nav>
             <ul class="header-contact-list">
                 <li class="header-contact-item">
-                    <a class="header-contacts header-gmail" href="mailto:info@devstudio.com">
+                    <a class="header-contacts header-gmail button" href="mailto:info@devstudio.com">
                         <svg class="header-contact-logo header-contacts" width="16" height="12">
                             <use 
                                 href="./images/symbol-defs.svg#icon-envelope">
@@ -35,7 +41,7 @@
                     </a>
                 </li>
                 <li class="header-contact-item">                   
-                    <a class="header-contacts header-tel" href="tel:+380961111111">
+                    <a class="header-contacts header-tel button" href="tel:+380961111111">
                         <svg class="header-contact-logo header-contacts" width="10" height="16">
                             <use
                                 href="./images/symbol-defs.svg#icon-smartphone">
@@ -51,76 +57,121 @@
         <div class="container">
         <!--Buttons-->
         <ul class="gallery-button-list">
-            <li class="button-gallery-li"><button class="button-gallery" type="button">Все</button></li>
-            <li class="button-gallery-li"><button class="button-gallery" type="button">Веб-сайты</button></li>
-            <li class="button-gallery-li"><button class="button-gallery" type="button">Приложения</button></li>
-            <li class="button-gallery-li"><button class="button-gallery" type="button">Дизайн</button></li>
-            <li class="button-gallery-li"><button class="button-gallery" type="button">Макретинг</button></li>
+            <li class="button-gallery-li"><button class="button-gallery button" type="button">Все</button></li>
+            <li class="button-gallery-li"><button class="button-gallery button" type="button">Веб-сайты</button></li>
+            <li class="button-gallery-li"><button class="button-gallery button" type="button">Приложения</button></li>
+            <li class="button-gallery-li"><button class="button-gallery button" type="button">Дизайн</button></li>
+            <li class="button-gallery-li"><button class="button-gallery button" type="button">Макретинг</button></li>
         </ul>
         <!--Gallery-->
             <ul class="site-list">
                 <li class="galleries">
-                    <a class="gallery-image" href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.thefactsite.com%2Fwp-content%2Fuploads%2F2012%2F05%2Fshrek-facts.jpg&imgrefurl=https%3A%2F%2Fwww.thefactsite.com%2Fogre-called-shrek%2F&tbnid=9A4tzBF83bgUBM&vet=12ahUKEwjuwJzgz4_4AhUFpBoKHfH6DwwQMygIegUIARDpAQ..i&docid=Hbj9TnIpGUiKlM&w=642&h=350&q=shrek&ved=2ahUKEwjuwJzgz4_4AhUFpBoKHfH6DwwQMygIegUIARDpAQ" target="_blank"><img src="./images/techcrack.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Технокряк</h2>
-                        <p class="gallery-paragraph">Веб-сайт</p></a>
-                    </div>    
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="./images/techcrack.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Технокряк</h2>
+                            <p class="gallery-paragraph">Веб-сайт</p>
+                        </div>
+                    </a>    
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/poster.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="gallery-paragraph">Дизайн</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/poster.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="gallery-paragraph">Дизайн</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/seafood.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Ресторан Seafood</h2>
-                        <p class="gallery-paragraph">Приложение</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/seafood.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Ресторан Seafood</h2>
+                            <p class="gallery-paragraph">Приложение</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/headphones.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Проект Prime</h2>
-                        <p class="gallery-paragraph">Макретинг</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/headphones.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Проект Prime</h2>
+                            <p class="gallery-paragraph">Макретинг</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/boxes.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Проект Boxes</h2>
-                        <p class="gallery-paragraph">Приложение</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/boxes.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Проект Boxes</h2>
+                            <p class="gallery-paragraph">Приложение</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/inspiration.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Inspiration has no Borders</h2>
-                        <p class="gallery-paragraph">Веб-сайт</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/inspiration.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Inspiration has no Borders</h2>
+                            <p class="gallery-paragraph">Веб-сайт</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/limited-edition.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Издание Limited Edition</h2>
-                        <p class="gallery-paragraph">Дизайн</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/limited-edition.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Издание Limited Edition</h2>
+                            <p class="gallery-paragraph">Дизайн</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/lab.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Проект LAB</h2>
-                        <p class="gallery-paragraph">Макретинг</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/lab.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Проект LAB</h2>
+                            <p class="gallery-paragraph">Макретинг</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="galleries">
-                    <a class="gallery-image" href="" target="_blank"><img src="images/growing-business.jpg" width="370" height="294" alt="Фото пользователя">
-                    <div class="project-info">
-                        <h2 class="gallery-title">Growing Business</h2>
-                        <p class="gallery-paragraph">Приложение</p></a>
-                    </div>
+                    <a class="gallery-image" href="" target="_blank">
+                        <div class="gallery-top-wrapper">
+                            <img src="images/growing-business.jpg" width="370" height="294" alt="Фото пользователя">
+                            <p class="gallery-top-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                        <div class="project-info">
+                            <h2 class="gallery-title">Growing Business</h2>
+                            <p class="gallery-paragraph">Приложение</p>
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -145,7 +196,7 @@
                 <h3 class="footer-title">Присоединяйтесь</h3>
                 <ul class="footer-soc-list">
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-instagram">
@@ -154,7 +205,7 @@
                         </a>
                     </li>
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-twitter">
@@ -163,7 +214,7 @@
                         </a>
                     </li>
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-facebook">
@@ -172,7 +223,7 @@
                         </a>
                     </li>
                     <li class="footer-soc-item">
-                        <a class="footer-soc-link" href="">
+                        <a class="footer-soc-link button" href="">
                             <svg class="footer-soc-icon" width="20" height="20">
                                 <use 
                                     href="./images/symbol-defs.svg#icon-linkedin">
